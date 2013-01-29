@@ -2,5 +2,6 @@
 *~
 .bashrc
 .ssh/
+git_build/
 .bash_history
 
