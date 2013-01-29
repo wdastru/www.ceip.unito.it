@@ -1,0 +1,8 @@
+*.ffs_db
+*~
+.bashrc
+.bash_history
+.ssh/
+.viminfo
+git/
+git_build/
