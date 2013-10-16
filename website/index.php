@@ -20,10 +20,11 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CEIP, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
+        <link rel="icon" href="images/favicon.gif" type="image/gif" />
         <link href="stylesheet.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="script.js"></script>
     </head>
-    <link rel="icon" href="images/favicon.gif" type="image/gif" />
+    
     <body>
         <?php include_once($localizer . 'includes/analyticstracking.php') ?>
 
