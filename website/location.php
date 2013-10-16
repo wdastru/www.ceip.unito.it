@@ -24,7 +24,6 @@ xmlns="http://www.w3.org/1999/xhtml">
         <link href="stylesheet.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="script.js"></script>
     </head>
-    <link rel="icon" href="images/favicon.gif" type="image/gif" />
     <body>
         <?php include_once($localizer . 'includes/analyticstracking.php') ?>
 

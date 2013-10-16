@@ -6,8 +6,6 @@ $localizer = "./";
 xmlns="http://www.w3.org/1999/xhtml">
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
-        <meta name="generator"
-        content="HTML Tidy for Windows (vers 14 February 2006), see www.w3.org" />
         <!-- InstanceBeginEditable name="title" -->
         <title>Center of Preclinical Imaging - University of Torino</title>
         <!-- InstanceEndEditable -->
@@ -20,7 +18,6 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CEIP, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link rel="icon" href="images/favicon.gif" type="image/gif" />
         <link href="stylesheet.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="script.js"></script>
     </head>
@@ -61,12 +58,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                         </div>
                         <!-- subsection closing -->
                         <div id='after'></div>
-                        <?php
-                            require ($localizer . 'includes/footer.php');
-                        ?>
-                        <?php
-                            require ($localizer . 'includes/validators.php');
-                        ?>
+                        <?php require ($localizer . 'includes/footer.php'); ?>
+                        <?php require ($localizer . 'includes/validators.php'); ?>
                         <!-- section closing -->
                     </div>
                 </div>
