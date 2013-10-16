@@ -4,8 +4,10 @@
 .ssh/
 git_build/
 .bash_history
-
 README.md
 .project
 robots.txt
 sitemap.xml
+.htaccess
+ceippass
+
