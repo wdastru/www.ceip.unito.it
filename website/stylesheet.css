@@ -12,29 +12,15 @@ h3 { font-size:12px; text-align:center; }
 .images { border:1px solid #000; }
 .fullWidtdh { width:630px; }
 .teamTitle { text-align:left; color:#DB6D16; }
-.repeatingBgImage { }
 
 /*     
  * after: nelle pagine sara' posizionato dopo la subsection e non visibile,
  * ma serve ad evitare che il footer copra parte dei contenuti     
  */
 #after { clear:both; display: block; height: 96px; visibility:hidden; background-color:#9966CC; }
-.displayInfoBox { color: #db6d16; }
-.infoBox { background-color:#FFF; width:450px; border:2px solid #666; padding:10px; text-align:justify; margin:auto; position:fixed; }
 /* general styles */
 
-/* SECTION SPECIFIC STYLES*/
-/*
-#section0, 
-#section1, 
-#section2, 
-#section3, 
-#section4, 
-#section5, 
-#section6, 
-#section7, 
-*/
-
+/* Backgrounds */
 .repeatingBgImage { margin: auto; width: 900px; position:relative; clear:both; 
     /*border: 3px #333333 solid;*/ 
     background: #ffffff url(images/sidebar-bkg-ltgray.jpg); background-repeat:repeat-y; background-position: -1px 0; 
@@ -55,7 +41,14 @@ h3 { font-size:12px; text-align:center; }
 
     background: url(images/home.png); background-repeat: no-repeat; background-position-y: bottom; background-position-x: right; 
 }
-    
+/* End of Backgrounds */
+
+.input_field { width: 450px; }
+form table { font-size: 12px; }
+.right_align { text-align: right; }
+.textarea_field { max-width: 450px; min-width: 450px; }
+
+/* SECTION SPECIFIC STYLES*/
 /* --> comportamento dei link non selezionati */
 #main-nav #main-nav-section0 a:hover, 
 #main-nav #main-nav-section1 a:hover, 
@@ -95,7 +88,10 @@ h3 { font-size:12px; text-align:center; }
 #section4 #header, 
 #section5 #header, 
 #section6 #header,
-#section7 #header { height: 150px; background: url(images/header.png); }
+#section7 #header { height: 160px; background: url(images/header_notitle.png); 
+    padding-left: 210px; line-height: 160px; font-size: 24px; font-weight: bold;
+    color: #558ED5;
+}
 
 /* END OF SECTION SPECIFIC STYLES */
 

@@ -35,9 +35,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <?php
                         require ($localizer . 'includes/main-nav.php');
                         ?>
-                        <div id='header'>CEIP Mission</div>
+                        <div id='header'>Location</div>
                         <!-- InstanceBeginEditable name="subsection opening" -->
-                        <div id="subsection1">
+                        <div id="subsection2">
                             <!-- InstanceEndEditable -->
                             <div id='sidebar'>
                                 <div class='padding'>
@@ -49,14 +49,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                             <div id='content'>
                                 <div class='paddingOuter'>
                                     <div class='paddingInner'>
-                                        <img src="images/ceip.png" alt="ceip" style="width:100%" />
                                         <p>
-                                            The mission of CEIP is to bridge the gap between in vitro biomedical research and in vivo imaging. 
-                                            This endeavour is approached by both, developing novel imaging technology to answer emerging questions 
-                                            in biomedicine and using novel animal models and imaging probes to  gain information about physiology 
-                                            and pathology in vivo. A very tight link to private companies actively involved in biomedical field 
-                                            ensures a fast transition of the basic research to the patient's bed.
+                                            The CEIP is located at the Bioindustry Park Silvano Fumero (BiPca in Colleretto Giacosa (Torino), 5 minutes from Ivrea. 
+                                            Thanks to its geographical position, the Park can be easily reached from all major European cities by car, train and plane.
+                                            <br/><br/>
+                                            ADDRESS:    Via Ribes 5 , 10010 Colleretto Giacosa (TO) ITALY.
                                         </p>
+                                        <br/><br/>
+                                        <div style="padding-left: 180px;" ><img src="images/location.png" alt="location" width="450px" /></div>                                        
                                     </div>
                                 </div>
                             </div>

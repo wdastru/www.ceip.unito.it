@@ -35,7 +35,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <?php
                         require ($localizer . 'includes/main-nav.php');
                         ?>
-                        <div id='header'></div>
+                        <div id='header'>CENTER FOR PRECLINICAL IMAGING</div>
                         <!-- InstanceBeginEditable name="subsection opening" -->
                         <div id="subsection0">
                             <!-- InstanceEndEditable -->
