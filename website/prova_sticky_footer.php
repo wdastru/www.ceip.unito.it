@@ -5,7 +5,7 @@ $localizer = "./";
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HTML5 CSS Sticky Footer</title>
+        <title>Center for Preclinical Imaging</title>
 
         <meta name="description" content="The original and simplest sticky footer CSS modified for HTML5.">
 
@@ -16,34 +16,56 @@ $localizer = "./";
 
         <link rel="stylesheet" type="text/css" media="screen" href="layout.css">
         <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-
+        
         <!--
         Include the following JavaScript file so older browsers can render the HTML5 elements properly
         -->
 
         <script type="text/javascript" src="js/html5.js"></script>
+        
+        <script type="text/javascript" src="script.js"></script>
 
     </head>
     <body>
 
-        <div class="wrapper">
-            
-            <nav>
-                <?php
-                    require ($localizer . 'includes/main-nav.php');
-                ?>
-            </nav>
-
-            <header>
-                
-            </header>
-
-            <article>
-                content
-            </article>
-
-            <div class="push"></div>
-
+        <div class="wrapper repeatingBgImage">
+        	    <div id='section0'>
+	                <nav>
+	        	    	<?php
+		                    require ($localizer . 'includes/main-nav.php');
+		                ?>
+	                </nav>
+		
+		            <header>
+		                <!-- Contenuto definito in style.css --> 
+		            </header>
+		
+		            <article>
+		            
+							<div id="subsection0">
+	                            <div id='sidebar'>
+	                                <div class='padding'>
+	                                    <?php require ($localizer . 'includes/home_sidebar.php'); ?>
+	                                </div>
+	                            </div>
+	                            <div id='content'>
+	                                <div class='paddingOuter'>
+	                                    <div class='paddingInner'>
+	                                        <p>
+	                                            CEIP(Center of Exellence in Preclinical Imaging) offers to universities, research centers and companies
+	                                            know-how and methodologies based on imaging techniques in order to easy and speed up the process of
+	                                            development of new diagnostic and therapeutics solutions.
+	                                        </p>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	
+		            </article>
+	            </div>
+	
+	            <div class="push"></div>
+			
         </div>
 
         <footer>
@@ -52,6 +74,11 @@ $localizer = "./";
             ?>
         </footer>
 
+        <script type="text/javascript">
+            //<![CDATA[
+            changeSideNavStyles();
+            //]]>
+        </script>
 
     </body>
 </html>

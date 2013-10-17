@@ -1,21 +1,15 @@
 body {
     font-size: 0.8em;
+    background-color: #666666;
 }
 .wrapper {
     position: relative;
     width: 850px;
 }
-.wrapper a {
-    color: #000;
-    text-decoration: none;
-    border-bottom: 2px solid #0bf;
-}
-
 footer {
     position: relative;
     width: 850px;
     margin: 0 auto;
-    background: url(/sticky-footer/images/footer.jpg) no-repeat;
 }
 #footer p { margin: 0; padding: 5px 0 5px 0; text-align: center; color: #558ED5; }
 #footer p img { border:none; }
@@ -42,21 +36,66 @@ footer {
 #section3 #main-nav-section3 a, 
 #section3 #main-nav-section3 a:hover, 
 #section4 #main-nav-section4 a, 
-#section4 #main-nav-section4 a:hover { background-color:#e4e4e4; color:#558ED5; }
+#section4 #main-nav-section4 a:hover { background-color:#E4E4E4; color:#558ED5; }
 
-#main-nav { height: 50px; background-color:#ffffff; }
+#main-nav { height: 50px; background-color:#ffffff; margin-left: 10px; }
 #main-nav ul { margin: 0; padding: 0; }
 #main-nav li { float: left; }
 #main-nav li a { display: block; height: 50px; padding: 0; overflow: hidden; 
     text-decoration:none; text-align:center; line-height:50px; font-weight:bold; 
 }
 
+#sidebar { float: left; width: 170px; font-weight:bold; padding: 0; }
+#sidebar-narrow { float: left; width: 80px; font-weight:bold; padding: 0; }
+#sidebar-narrower { float: left; width: 0px; font-weight:bold; padding: 0; }
+#sidebar .padding { padding: 25px 8px 25px 12px; }
+#sidebar #sidebar-subsection0, 
+#sidebar #sidebar-subsection1, 
+#sidebar #sidebar-subsection2, 
+#sidebar #sidebar-subsection3, 
+#sidebar #sidebar-subsection4, 
+#sidebar #sidebar-subsection5,
+#sidebar #sidebar-subsection6, 
+#sidebar #sidebar-subsection7,
+#sidebar #sidebar-subsection8 { height:22px; padding: 0; margin: 0; text-align:left; }
+.sidebar-header { color: #558ED5; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
+.sidebar-indent { padding-left:15px; }
+
+/* --> comportamento dei link non selezionati */
+#sidebar .subsection_link a { color: #666666; text-decoration: none; display: block;
+	line-height:22px; padding: 0 10px 0 10px; 
+}
+/* <-- End */
+
+/* comportamento dei link selezionati */
+div#section0 div#main-nav-section0 a, 
+div#section0 div#main-nav-section0 a:hover, 
+div#section1 div#main-nav-section1 a, 
+div#section1 div#main-nav-section1 a:hover, 
+div#section2 div#main-nav-section2 a, 
+div#section2 div#main-nav-section2 a:hover, 
+div#section3 div#main-nav-section3 a, 
+div#section3 div#main-nav-section3 a:hover, 
+div#section4 div#main-nav-section4 a, 
+div#section4 div#main-nav-section4 a:hover { background-color:#e4e4e4; color:#558ED5; }
+/* <-- end */
 
 header {
     height: 190px;
     background: url(images/header.png) no-repeat;
 }
+.repeatingBgImage { 
+    background: #ffffff url(images/sidebar-bkg-ltgray.jpg); background-repeat:repeat-y; background-position: -1px 0; 
+}
 
+
+
+
+
+
+/***********************
+ * ROBA ELIMINABILE ?? 
+ ************************/
 
 
 p {
