@@ -1,12 +1,11 @@
 <?php
 $localizer = "./";
 ?>
-<!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html
-xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
     <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
     <head>
+        <meta charset="UTF-8">
         <!-- InstanceBeginEditable name="title" -->
         <title>Center of Preclinical Imaging - University of Torino</title>
         <!-- InstanceEndEditable -->
@@ -14,9 +13,8 @@ xmlns="http://www.w3.org/1999/xhtml">
         <meta name="description"
         content="University of Torino. Website of the Center of Preclinical Imaging." />
         <!-- InstanceEndEditable -->
-        <meta name="google-site-verification"
-        content="q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
-        <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
+        <meta name="google-site-verification" content="q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
+        <meta content="text/html" />
         <meta name="keywords"
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CEIP, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
         <link href="stylesheet.css" rel='stylesheet' type='text/css' />

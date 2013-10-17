@@ -97,9 +97,9 @@ form table { font-size: 12px; }
 
 /* MAIN NAVIGATION */
 #main-nav { height: 50px; background-color:#ffffff; }
-#main-nav dl { margin: 0; padding: 0; }
-#main-nav dt { float: left; }
-#main-nav dt a { display: block; height: 50px; padding: 0; overflow: hidden; text-decoration:none; text-align:center; line-height:50px; font-weight:bold; }
+#main-nav ul { margin: 0; padding: 0; }
+#main-nav li { float: left; }
+#main-nav li a { display: block; height: 50px; padding: 0; overflow: hidden; text-decoration:none; text-align:center; line-height:50px; font-weight:bold; }
 
 /* IE5 Mac Hack \*/
 #main-nav { padding-left: 11px; }
