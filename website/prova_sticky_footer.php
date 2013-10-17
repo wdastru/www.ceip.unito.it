@@ -2,8 +2,7 @@
 $localizer = "./";
 ?>
 <!DOCTYPE html>
-<!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
     <!-- InstanceBeginEditable name="title" -->
     <title>Center of Preclinical Imaging - University of Torino</title>
@@ -41,9 +40,7 @@ $localizer = "./";
                             <!-- InstanceEndEditable -->
                             <div id='sidebar'>
                                 <div class='padding'>
-                                    <?php
-                                    require ($localizer . 'includes/home_sidebar.php');
-                                    ?>
+                                    <?php require ($localizer . 'includes/home_sidebar.php'); ?>
                                 </div>
                             </div>
                             <div id='content'>
