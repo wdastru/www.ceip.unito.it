@@ -1,0 +1,86 @@
+body {
+    font-size: 0.8em;
+}
+.wrapper {
+    position: relative;
+    width: 850px;
+}
+.wrapper a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid #0bf;
+}
+
+footer {
+    position: relative;
+    width: 850px;
+    margin: 0 auto;
+    background: url(/sticky-footer/images/footer.jpg) no-repeat;
+}
+#footer p { margin: 0; padding: 5px 0 5px 0; text-align: center; color: #558ED5; }
+#footer p img { border:none; }
+#footer, .personal_contacts a { color: #999999; text-decoration: none; }
+#footer, .personal_contacts a:HOVER { color: #db6d16; }
+
+#main-nav #main-nav-section0 a:hover, 
+#main-nav #main-nav-section1 a:hover, 
+#main-nav #main-nav-section2 a:hover, 
+#main-nav #main-nav-section3 a:hover, 
+#main-nav #main-nav-section4 a:hover { color: #558ED5; }
+#main-nav #main-nav-section0 a { width: 70px; color:#666666; }
+#main-nav #main-nav-section1 a { width: 80px; color:#666666; }
+#main-nav #main-nav-section2 a { width: 70px; color:#666666; }
+#main-nav #main-nav-section3 a { width: 80px; color:#666666; }
+#main-nav #main-nav-section4 a { width: 100px; color:#666666; }
+
+#section0 #main-nav-section0 a, 
+#section0 #main-nav-section0 a:hover, 
+#section1 #main-nav-section1 a, 
+#section1 #main-nav-section1 a:hover, 
+#section2 #main-nav-section2 a, 
+#section2 #main-nav-section2 a:hover, 
+#section3 #main-nav-section3 a, 
+#section3 #main-nav-section3 a:hover, 
+#section4 #main-nav-section4 a, 
+#section4 #main-nav-section4 a:hover { background-color:#e4e4e4; color:#558ED5; }
+
+#main-nav { height: 50px; background-color:#ffffff; }
+#main-nav ul { margin: 0; padding: 0; }
+#main-nav li { float: left; }
+#main-nav li a { display: block; height: 50px; padding: 0; overflow: hidden; 
+    text-decoration:none; text-align:center; line-height:50px; font-weight:bold; 
+}
+
+
+header {
+    height: 190px;
+    background: url(images/header.png) no-repeat;
+}
+
+
+
+p {
+    padding: 0 0 1em;
+    color: #666;
+    font: 1em/1.6em helvetica,arial,sans-serif;
+}
+
+footer a {
+    color: #0060b9;
+}
+footer a:hover {
+    color: #fff;
+}
+/*
+footer p {
+    padding: 95px 0 0;
+    color: #fff;
+    font: 1em helvetica,arial,sans-serif;
+    text-align: center;
+}
+*/
+footer p.copyright {
+    padding: 1em 0 0;
+    color: #0060b9;
+    font-size: 0.8em;
+}
