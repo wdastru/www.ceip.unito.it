@@ -23,10 +23,9 @@ xmlns="http://www.w3.org/1999/xhtml">
         content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CEIP, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
         <link href="stylesheet.css" rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="script.js"></script>
+        <?php include_once($localizer . 'includes/analyticstracking.php') ?>
     </head>
     <body>
-        <?php include_once($localizer . 'includes/analyticstracking.php') ?>
-
         <div class="repeatingBgImage">
             <div class="BgImage1">
                 <div class="BgImage2">
