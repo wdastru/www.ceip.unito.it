@@ -1,0 +1,159 @@
+body {
+    font-size: 1.0em;
+    font-family: Arial;
+    background-color: #666666;
+}
+.wrapper {
+    position: relative;
+    width: 850px;
+}
+
+/* FOOTER */
+footer {
+    position: relative;
+    width: 850px;
+    margin: 0 auto;
+    font: 0.6em Arial ;
+}
+#footer p { margin: 0; padding: 5px 0 5px 0; text-align: center; color: #558ED5; }
+#footer p img { border:none; }
+#footer, .personal_contacts a { color: #999999; text-decoration: none; }
+#footer, .personal_contacts a:HOVER { color: #db6d16; }
+/* FOOTER */
+
+article { 
+    width: 100%;
+    font-size: 0.8em;
+}
+
+/* MAIN NAV */
+#main-nav { font-size: 0.9em; }
+#main-nav #main-nav-section0 a:hover, 
+#main-nav #main-nav-section1 a:hover, 
+#main-nav #main-nav-section2 a:hover, 
+#main-nav #main-nav-section3 a:hover, 
+#main-nav #main-nav-section4 a:hover { color: #558ED5; }
+#main-nav #main-nav-section0 a { width: 70px; color:#666666; }
+#main-nav #main-nav-section1 a { width: 70px; color:#666666; }
+#main-nav #main-nav-section2 a { width: 100px; color:#666666; }
+#main-nav #main-nav-section3 a { width: 100px; color:#666666; }
+#main-nav #main-nav-section4 a { width: 110px; color:#666666; }
+
+#section0 #main-nav-section0 a, 
+#section0 #main-nav-section0 a:hover, 
+#section1 #main-nav-section1 a, 
+#section1 #main-nav-section1 a:hover, 
+#section2 #main-nav-section2 a, 
+#section2 #main-nav-section2 a:hover, 
+#section3 #main-nav-section3 a, 
+#section3 #main-nav-section3 a:hover, 
+#section4 #main-nav-section4 a, 
+#section4 #main-nav-section4 a:hover { background-color:#E4E4E4; color:#558ED5; }
+
+#main-nav { height: 50px; background-color:#ffffff; margin-left: 10px; }
+#main-nav ul { margin: 0; padding: 0; list-style-type: none; }
+#main-nav li { float: left; }
+#main-nav li a { display: block; height: 50px; padding: 0; overflow: hidden; 
+    text-decoration:none; text-align:center; line-height:50px; font-weight:bold; 
+}
+/* --> comportamento dei link selezionati */
+div#section0 div#main-nav-section0 a, 
+div#section0 div#main-nav-section0 a:hover, 
+div#section1 div#main-nav-section1 a, 
+div#section1 div#main-nav-section1 a:hover, 
+div#section2 div#main-nav-section2 a, 
+div#section2 div#main-nav-section2 a:hover, 
+div#section3 div#main-nav-section3 a, 
+div#section3 div#main-nav-section3 a:hover, 
+div#section4 div#main-nav-section4 a, 
+div#section4 div#main-nav-section4 a:hover { background-color:#e4e4e4; color:#558ED5; }
+/* <-- comportamento dei link selezionati */
+/* MAIN NAV */
+
+/* SIDEBAR */
+#sidebar { 
+    float: left; width: 170px; font-weight:bold; padding: 0;
+    font-size: 0.9em;
+}
+#sidebar ul { list-style-type: none; }
+#sidebar-narrow { float: left; width: 80px; font-weight:bold; padding: 0; }
+#sidebar-narrower { float: left; width: 0px; font-weight:bold; padding: 0; }
+#sidebar .padding { padding: 25px 8px 25px 12px; }
+#sidebar #sidebar-subsection0, 
+#sidebar #sidebar-subsection1, 
+#sidebar #sidebar-subsection2, 
+#sidebar #sidebar-subsection3, 
+#sidebar #sidebar-subsection4, 
+#sidebar #sidebar-subsection5,
+#sidebar #sidebar-subsection6, 
+#sidebar #sidebar-subsection7,
+#sidebar #sidebar-subsection8 { height:22px; padding: 0; margin: 0; text-align:left; }
+.sidebar-header { color: #558ED5; text-decoration: none; display: block; line-height:22px; padding: 0 10px 0 10px; }
+.sidebar-indent { padding-left:15px; }
+/* --> comportamento dei link non selezionati */
+#sidebar .subsection_link a { color: #666666; text-decoration: none; display: block;
+	line-height:22px; padding: 0 10px 0 10px; 
+}
+#sidebar .subsection_link a:hover { color: #558ED5; }
+/* <-- comportamento dei link non selezionati */
+/* SIDEBAR */
+
+header {
+    height: 190px;
+    background: url(images/header.png) no-repeat;
+}
+.BgdImages { 
+    background: url(images/logo-unito.png), url(images/sidebar-bkg-ltgray.jpg), url(images/home.png), #FFFFFF; 
+    background-repeat:no-repeat, repeat-y, no-repeat; 
+    background-position: left bottom, -1px 0, right bottom; 
+}
+
+#content { float: right; width: 680px; line-height: 22px; padding: 0; }
+#content p { text-align:justify; }
+#content .paddingInner { padding: 0px 55px 0px 25px; }
+
+/* CONTACTS */
+#contacts_form {
+    width: 100%;
+}
+.input_field { width: 450px; }
+form table { font-size: 12px; }
+.right_align { text-align: right; }
+.textarea_field { max-width: 450px; min-width: 450px; max-height: 150px; min-height: 150px; }
+/* CONTACTS */
+
+
+
+
+
+
+/***********************
+ * ROBA ELIMINABILE ?? 
+ ************************/
+
+
+p {
+    padding: 0 0 1em;
+    color: #666;
+    font: 1em/1.6em helvetica,arial,sans-serif;
+}
+
+footer a {
+    color: #0060b9;
+}
+footer a:hover {
+    color: #fff;
+}
+/*
+footer p {
+    padding: 95px 0 0;
+    color: #fff;
+    font: 1em helvetica,arial,sans-serif;
+    text-align: center;
+}
+*/
+footer p.copyright {
+    padding: 1em 0 0;
+    color: #0060b9;
+    font-size: 0.8em;
+}

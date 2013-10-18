@@ -1,9 +1,54 @@
 /* CSS Document */
 
-/* general styles */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: auto; 
+    margin-bottom: 100px; /* bottom = footer height */
+}
+
+/* FOOTER */
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    color: #558ED5;
+    border-top: 1px solid #CCCCCC;
+    font-family: Tahoma, Arial, Helvetica, Sans-serif;
+    text-align: center;
+    padding: 10px 25px 0px 25px;
+    line-height: 12px;
+    /*height: 90px;*/
+    /*width: 100%;*/
+    margin: auto;
+    width: 850px;
+    font-size: 10px;
+}
+
+#footer p { margin: 0; padding: 5px 0 5px 0; }
+#footer p img { border:none; }
+#footer, .personal_contacts a { color: #999999; text-decoration: none; }
+#footer, .personal_contacts a:HOVER { color: #db6d16; }
+/* End of FOOTER */
+
+#section0,
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6,
+#section7 {
+    margin: auto; width: 850px;
+}
+
+/* general styles 
 html { margin: 10px; padding: 0; background-color:#666666; height:100%; }
 body { margin: 0; padding: 0; text-align: left; font-family: Arial, Helvetica, Verdana, Sans-serif; 
-        font-size: 12px; color: #666666; height:100% /* important for footer at the bottom */; }
+        font-size: 12px; color: #666666; height:100% /* important for footer at the bottom */ /*; }
 .hidden { display: none; }
 h1 { margin: 0; padding: 10px; font-size:24px; }
 h2 { font-size:14px; font-weight:bold; text-align:center; }
@@ -97,9 +142,9 @@ form table { font-size: 12px; }
 
 /* MAIN NAVIGATION */
 #main-nav { height: 50px; background-color:#ffffff; }
-#main-nav dl { margin: 0; padding: 0; }
-#main-nav dt { float: left; }
-#main-nav dt a { display: block; height: 50px; padding: 0; overflow: hidden; text-decoration:none; text-align:center; line-height:50px; font-weight:bold; }
+#main-nav ul { margin: 0; padding: 0; }
+#main-nav li { float: left; }
+#main-nav li a { display: block; height: 50px; padding: 0; overflow: hidden; text-decoration:none; text-align:center; line-height:50px; font-weight:bold; }
 
 /* IE5 Mac Hack \*/
 #main-nav { padding-left: 11px; }
@@ -166,30 +211,6 @@ form table { font-size: 12px; }
 #band { height:45px; width:100%; background-color:#db6d16; margin-bottom:20px; }
 #subsectionTitle { font-weight:bold; font-size:24px; color:#FFFFFF; margin:0px; padding:10px; }
 /* End of CONTENT */
-
-/* FOOTER */
-
-div#footer {
-    position: absolute;
-    clear: both;
-    color: #558ED5;
-    border-top: 1px solid #cccccc;
-    margin: auto;
-    padding: 10px 25px 0px 25px;
-    line-height: 12px;
-    height: 90px;
-    width: 850px;
-    font-size: 10px;
-    bottom: 0 !important;
-    font-family: Tahoma, Arial, Helvetica, Sans-serif;
-    text-align: center;
-}
-
-#footer p { margin: 0; padding: 5px 0 5px 0; }
-#footer p img { border:none; }
-#footer, .personal_contacts a { color: #999999; text-decoration: none; }
-#footer, .personal_contacts a:HOVER { color: #db6d16; }
-/* End of FOOTER */
 
 /* VALIDATORS */
 #validators { position:absolute; clear: both; color: #999999; margin: auto; padding: 10px 25px 0px 25px; line-height: 12px; height: 86px; width: 851px; font-size: 10px; bottom: 0 !important; font-family: Tahoma, Arial, Helvetica, Sans-serif; text-align: right; }
