@@ -87,15 +87,15 @@ function toggleAbstract(button) {
 }
 
 function changeSideNavStyles() {
-	if (document.getElementById) {
+    if (document.getElementById) {
 		for ( var i = 0; i < section.length; i++) {
 			for ( var j = 0; j < subsection.length; j++) {
-				if ((document.getElementById(section[i]) != null)
+			    if ((document.getElementById(section[i]) != null)
 						&& (document.getElementById(subsection[j]) != null)) {
 					for ( var k = 0; k < subsection.length; k++) {
 						var id = section[i] + '-' + subsection[k];
 						if (document.getElementById(id) != null) {
-							if (k == j) {
+						    if (k == j) {
 								document.getElementById(id).style.backgroundColor = '#e4e4e4';
 								document.getElementById(id)
 										.getElementsByTagName('a').item(0).style.color = '#558ED5';
