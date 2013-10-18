@@ -1,51 +1,53 @@
+
 <?php
 $localizer = "./";
 ?>
-<!DOCTYPE PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html
-xmlns="http://www.w3.org/1999/xhtml">
-    <!-- InstanceBegin template="/Templates/home.dwt" codeOutsidephpIsLocked="false" -->
+<!DOCTYPE html>
+<html>
     <head>
-        <meta name="generator"
-        content="HTML Tidy for Windows (vers 14 February 2006), see www.w3.org" />
-        <!-- InstanceBeginEditable name="title" -->
-        <title>Center of Preclinical Imaging - University of Torino</title>
-        <!-- InstanceEndEditable -->
-        <!-- InstanceBeginEditable name="meta description" -->
-        <meta name="description"
-        content="University of Torino. Website of the Center of Preclinical Imaging." />
-        <!-- InstanceEndEditable -->
-        <meta name="google-site-verification"
-        content="q6BWA8Ypxz6kFHheH3kr6xrFvLXopTTQNMlEEV3vGF0" />
-        <meta http-equiv="Content-Type" content="text/php; charset=us-ascii" />
-        <meta name="keywords"
-        content="NMR, MRI, Imaging Molecolare, Molecular Imaging, Molecular, Imaging, Hyperpolarization, Liposomes, Targeting, Contrast Agents, Positron Emission Tomography, PET, microPET, Diagnostic Imaging, Optical Imaging, CEIP, Torino, Italy, Liposomi, risonanza, magnetica, Italia" />
-        <link href="stylesheet.css" rel='stylesheet' type='text/css' />
+        <title>Center for Preclinical Imaging</title>
+
+        <meta name="description" content="The original and simplest sticky footer CSS modified for HTML5.">
+
+        <!--
+        The second stylesheet is to make things look pretty.
+        The first one is only the important one.
+        -->
+
+        <link rel="stylesheet" type="text/css" media="screen" href="layout.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+        
+        <!--
+        Include the following JavaScript file so older browsers can render the HTML5 elements properly
+        -->
+
+        <script type="text/javascript" src="html5.js"></script>
         <script type="text/javascript" src="script.js"></script>
-        <?php include_once($localizer . 'includes/analyticstracking.php') ?>
+
     </head>
     <body>
-        <div class="repeatingBgImage">
-            <div class="BgImage1">
-                <div class="BgImage2">
-                    <div id='section0'>
-                        <?php
-                        require ($localizer . 'includes/main-nav.php');
-                        ?>
-                        <div id='header'>Contact Us</div>
-                        <!-- InstanceBeginEditable name="subsection opening" -->
-                        <div id="subsection3">
-                            <!-- InstanceEndEditable -->
-                            <div id='sidebar'>
-                                <div class='padding'>
-                                    <?php
-                                    require ($localizer . 'includes/home_sidebar.php');
-                                    ?>
-                                </div>
-                            </div>
-                            <div id='content'>
-                                <div class='paddingOuter'>
+
+        <div class="wrapper BgdImages">
+        	    <div id='section0'>
+	                <nav>
+	        	    	<?php
+		                    require ($localizer . 'includes/main-nav.php');
+		                ?>
+	                </nav>
+		
+		            <header>
+		                <!-- Contenuto definito in style.css --> 
+		            </header>
+		
+		            <article>
+		            
+							<div id="subsection3">
+	                            <div id='sidebar'>
+	                                <div class='padding'>
+	                                    <?php require ($localizer . 'includes/home_sidebar.php'); ?>
+	                                </div>
+	                            </div>
+	                            <div id='content'>
                                     <div class='paddingInner'>
                                         <div style="float: left; width: 250px;">
                                             <p>
@@ -73,10 +75,10 @@ xmlns="http://www.w3.org/1999/xhtml">
                                         <br/>
                                         <p style="text-align: center"><strong>Request form</strong></p>
                                         <form>
-                                            <table>
+                                            <table id="contacts_form">
                                                 <tr>
-                                                    <td class="right_align">Name and surname</td>
-                                                    <td><input class="input_field" type="text" name= "name" value="" /></td>
+                                                    <td id='col1' class="right_align">Name and surname</td>
+                                                    <td id='col2'><input class="input_field" type="text" name= "name" value="" /></td>
                                                 </tr>
                                                 <tr>
                                                     <td class="right_align">Company</td>
@@ -99,35 +101,33 @@ xmlns="http://www.w3.org/1999/xhtml">
                                                 </tr>
                                                 <tr>
                                                     <td colspan="2" style="text-align: center">
-                                                        <input type="submit" value="Send" />
+                                                        <input id="button" type="submit" value="Send" />
                                                     </td>
                                                 </tr>
                                             </table>
                                         </form>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- subsection closing -->
-                        </div>
-                        <!-- subsection closing -->
-                        <div id='after'></div>
-                        <?php
-                            require ($localizer . 'includes/footer.php');
-                        ?>
-                        <?php
-                            require ($localizer . 'includes/validators.php');
-                        ?>
-                        <!-- section closing -->
-                    </div>
-                </div>
-            </div>
+	                        </div>
+	
+		            </article>
+	            </div>
+	
+	            <div class="push"></div>
+			
         </div>
-        <!-- section closing -->
+
+        <footer>
+            <?php
+                require ($localizer . 'includes/footer.php');
+            ?>
+        </footer>
+
         <script type="text/javascript">
             //<![CDATA[
             changeSideNavStyles();
             //]]>
         </script>
-        <!-- InstanceEnd -->
+
     </body>
 </html>
