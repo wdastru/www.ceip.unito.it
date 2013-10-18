@@ -5,25 +5,11 @@ $localizer = "./";
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Center for Preclinical Imaging</title>
-
-        <meta name="description" content="The original and simplest sticky footer CSS modified for HTML5.">
-
-        <!--
-        The second stylesheet is to make things look pretty.
-        The first one is only the important one.
-        -->
-
-        <link rel="stylesheet" type="text/css" media="screen" href="layout.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+        <title>Contacts - CEIP</title>
+        <meta name="description" content="Contact Us at CEIP">
         
-        <!--
-        Include the following JavaScript file so older browsers can render the HTML5 elements properly
-        -->
-
-        <script type="text/javascript" src="html5.js"></script>
-        <script type="text/javascript" src="script.js"></script>
-
+        <?php include_once($localizer . 'includes/head_const.php') ?>
+        <?php include_once($localizer . 'includes/analyticstracking.php') ?>
     </head>
     <body>
 
@@ -37,6 +23,7 @@ $localizer = "./";
 		
 		            <header>
 		                <!-- Contenuto definito in style.css --> 
+		                Contact Us
 		            </header>
 		
 		            <article>

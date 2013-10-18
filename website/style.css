@@ -100,7 +100,12 @@ div#section4 div#main-nav-section4 a:hover { background-color:#e4e4e4; color:#55
 
 header {
     height: 190px;
-    background: url(images/header.png) no-repeat;
+    background: url(images/header_notitle.png) no-repeat;
+    line-height: 160px;
+    padding-left: 200px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #558ED5;
 }
 .BgdImages { 
     background: url(images/logo-unito.png), url(images/sidebar-bkg-ltgray.jpg), url(images/home.png), #FFFFFF; 
