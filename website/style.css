@@ -127,9 +127,21 @@ form table { font-size: 12px; }
 .textarea_field { max-width: 450px; min-width: 450px; max-height: 150px; min-height: 150px; }
 /* CONTACTS */
 
-
-
-
+img.MRI_images { 
+    width: 180px;
+    padding-left: 20px;
+}
+img.PET_SPECT_CT_images { 
+    width: 180px;
+    padding-left: 90px;
+}
+img.microUS_images {
+    width: 180px;
+    padding-left: 200px;
+}
+.float_left {
+    float: left;
+}
 
 
 /***********************
