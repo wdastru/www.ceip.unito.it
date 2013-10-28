@@ -139,6 +139,10 @@ img.microUS_images {
     width: 180px;
     padding-left: 200px;
 }
+img.photoacustic_images {
+    width: 180px;
+    padding-left: 200px;
+}
 .float_left {
     float: left;
 }

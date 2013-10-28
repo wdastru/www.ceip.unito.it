@@ -4,7 +4,7 @@ $localizer = "./";
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Photoacustic instrumentation - CEIP</title>
+        <title>Optical Imaging instrumentation - CEIP</title>
         <meta name="description" content="Home of CEIP.">
         
         <?php include_once($localizer . 'includes/head_const.php'); ?>
@@ -22,12 +22,12 @@ $localizer = "./";
 	
 	            <header>
 	                <!-- Contenuto definito in style.css -->
-	                Photoacustic instrumentation
+	                Optical Imaging instrumentation
 	            </header>
 	
 	            <article>
 	            
-						<div id="subsection4">
+						<div id="subsection5">
                             <div id='sidebar'>
                                 <div class='padding'>
                                     <?php require ($localizer . 'includes/facilities_sidebar.php'); ?>
@@ -41,7 +41,7 @@ $localizer = "./";
                                             </li>
                                         </ul>
                                     </p>
-                                    <div class="float_left"><img class="photoacustic_images" src="images/photoacustic.png" alt="photoacustic" /></div>
+                                    <div class="float_left"><img class="optical_images" src="images/" alt="optical" /></div>
                                 </div>
                             </div>
                         </div>
