@@ -4,7 +4,7 @@ $localizer = "./";
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Micro US instrumentation - CEIP</title>
+        <title>Photoacustic instrumentation - CEIP</title>
         <meta name="description" content="Home of CEIP.">
         
         <?php include_once($localizer . 'includes/head_const.php'); ?>
@@ -22,12 +22,12 @@ $localizer = "./";
 	
 	            <header>
 	                <!-- Contenuto definito in style.css -->
-	                Micro US instrumentation
+	                Photoacustic instrumentation
 	            </header>
 	
 	            <article>
 	            
-						<div id="subsection3">
+						<div id="subsection4">
                             <div id='sidebar'>
                                 <div class='padding'>
                                     <?php require ($localizer . 'includes/facilities_sidebar.php'); ?>
@@ -38,15 +38,10 @@ $localizer = "./";
                                     <p>
                                         <ul>
                                             <li>
-                                                The Vevo&reg; 2100 system expands the functionality, flexibility and image quality of the Vevo 770
-                                                system, operating at frequencies never before achieved with solid-state array transducers.
-                                                The system is easy to use, non-invasive and fast, providing extremely high throughput when needed. 
-                                                Superior resolution and image uniformity through entire field of view with 30 &micro;m of resolution and 
-                                                frame rates in 2D up to 740 fps (for a 4x4 mm field of view).
                                             </li>
                                         </ul>
                                     </p>
-                                    <div class="float_left"><img class="microUS_images" src="images/microUS_1.png" alt="microUS 1" /></div>
+                                    <!--<div class="float_left"><img class="microUS_images" src="images/microUS_1.png" alt="microUS 1" /></div>-->
                                 </div>
                             </div>
                         </div>
