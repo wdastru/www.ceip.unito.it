@@ -8,7 +8,7 @@ echo "
             <a href='publications.php'>Publications</a>
         </li>
         <li class='subsection_link' id='section3-subsection3'>
-            <a href='Presentation.php'>Presentation</a>
+            <a href='presentation.php'>Presentation</a>
         </li>
     </ul>";
 ?>
